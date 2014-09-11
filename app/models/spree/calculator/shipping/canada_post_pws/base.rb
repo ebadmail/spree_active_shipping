@@ -3,6 +3,10 @@ require_dependency 'spree/calculator'
 module Spree
   module Calculator::Shipping
     module CanadaPostPws
+      ActiveMerchant::Shipping::CanadaPostPWS.class_eval do
+        cattr_reader :name
+      end
+
       class Base < Spree::Calculator::Shipping::ActiveShipping::Base
         def carrier
           canada_post_options = {
