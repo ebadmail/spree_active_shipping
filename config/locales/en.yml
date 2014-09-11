@@ -58,6 +58,41 @@ en:
     small_packets_air: "Canada Post Small Packets Air"
     parcel_surface: "Canada Post Parcel Surface"
     small_packets_surface: "Canada Post Small Packets Surface"
+  canada_post_pws:
+    regular: "Regular Parcel"
+    expedited: "Expedited Parcel"
+    xpresspost: "Xpresspost"
+    priority: "Priority"
+    priority_worldwide_intl: "Priority Worldwide parcel Int'l"
+    xpresspost_international: "Xpresspost International"
+    small_packets_air: "Small Packet USA Air"
+    parcel_surface: "Priority Worldwide Parcel USA"
+    small_packets_surface: "Small Packet USA Surface"
+    # MAYBE YOU ARE LOOKING FOR THESE?
+#       "DOM.RP"        => "Regular Parcel",
+#            "DOM.EP"        => "Expedited Parcel",
+#            "DOM.XP"        => "Xpresspost",
+#            "DOM.XP.CERT"   => "Xpresspost Certified",
+#            "DOM.PC"        => "Priority",
+#            "DOM.LIB"       => "Library Books",
+#
+#            "USA.EP"        => "Expedited Parcel USA",
+#            "USA.PW.ENV"    => "Priority Worldwide Envelope USA",
+#            "USA.PW.PAK"    => "Priority Worldwide pak USA",
+#            "USA.PW.PARCEL" => "Priority Worldwide Parcel USA",
+#            "USA.SP.AIR"    => "Small Packet USA Air",
+#            "USA.SP.SURF"   => "Small Packet USA Surface",
+#            "USA.XP"        => "Xpresspost USA",
+#
+#            "INT.XP"        => "Xpresspost International",
+#            "INT.IP.AIR"    => "International Parcel Air",
+#            "INT.IP.SURF"   => "International Parcel Surface",
+#            "INT.PW.ENV"    => "Priority Worldwide Envelope Int'l",
+#            "INT.PW.PAK"    => "Priority Worldwide pak Int'l",
+#            "INT.PW.PARCEL" => "Priority Worldwide parcel Int'l",
+#            "INT.SP.AIR"    => "Small Packet International Air",
+#            "INT.SP.SURF"   => "Small Packet International Surface"
+#          }
   shipping_error: "Shipping Error"
   spree:
     product_packages: "Product Packages"

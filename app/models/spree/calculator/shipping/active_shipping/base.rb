@@ -17,7 +17,8 @@ module Spree
 
         def available?(package)
           !compute(package).nil?
-        rescue Spree::ShippingError
+        rescue Spree::ShippingError => e
+          puts "not available because of error #{e}"
           false
         end
 
