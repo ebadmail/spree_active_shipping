@@ -16,6 +16,9 @@ class Spree::ActiveShippingConfiguration < Spree::Preferences::Configuration
 
   preference :canada_post_api_key, :string, :default => "canada post api key (PWS)"
   preference :canada_post_secret, :string, :default => "canada post secret (PWS)"
+  preference :canada_post_endpoint, :string, :default => nil
+  preference :canada_post_customer_number, :string, :default => nil
+  preference :canada_post_contract_id, :string, :default => nil
 
   preference :origin_country, :string, :default => "US"
   preference :origin_state, :string, :default => "PA"
