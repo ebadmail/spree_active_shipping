@@ -1,7 +1,7 @@
 module Spree
   module Calculator::Shipping
-    module CanadaPostPWS
-      class SmallPacketsSurface < Spree::Calculator::Shipping::CanadaPostPWS::Base
+    module CanadaPostPws
+      class SmallPacketsSurface < Spree::Calculator::Shipping::CanadaPostPws::Base
         def self.description
           I18n.t("canada_post.small_packets_surface")
         end

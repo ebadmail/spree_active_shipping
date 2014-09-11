@@ -1,7 +1,7 @@
 module Spree
   module Calculator::Shipping
-    module CanadaPostPWS
-      class Expedited < Spree::Calculator::Shipping::CanadaPostPWS::Base
+    module CanadaPostPws
+      class Expedited < Spree::Calculator::Shipping::CanadaPostPws::Base
         def self.description
           I18n.t("canada_post_pws.expedited")
         end

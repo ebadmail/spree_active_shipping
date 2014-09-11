@@ -1,9 +1,9 @@
 module Spree
   module Calculator::Shipping
-    module CanadaPostPWS
-      class PriorityWorldwideIntl < Spree::Calculator::Shipping::CanadaPostPWS::Base
+    module CanadaPostPws
+      class PriorityWorldwideIntl < Spree::Calculator::Shipping::CanadaPostPws::Base
         def self.description
-          I18n.t("canada_post.priority_worldwide_intl")
+          I18n.t("canada_post_pws.priority_worldwide_intl")
         end
       end
     end

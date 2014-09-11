@@ -1,9 +1,9 @@
 module Spree
   module Calculator::Shipping
-    module CanadaPostPWS
-      class ParcelSurface < Spree::Calculator::Shipping::CanadaPostPWS::Base
+    module CanadaPostPws
+      class ParcelSurface < Spree::Calculator::Shipping::CanadaPostPws::Base
         def self.description
-          I18n.t("canada_post.parcel_surface");
+          I18n.t("canada_post_pws.parcel_surface");
         end
       end
     end

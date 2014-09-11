@@ -2,7 +2,7 @@ require_dependency 'spree/calculator'
 
 module Spree
   module Calculator::Shipping
-    module CanadaPostPWS
+    module CanadaPostPws
       class Base < Spree::Calculator::Shipping::ActiveShipping::Base
         def carrier
           canada_post_options = {
@@ -13,7 +13,7 @@ module Spree
               :customer_number => Spree::ActiveShipping::Config[:canada_post_customer_number],
               :language => I18n.locale.to_sym
           }
-          carrier = ActiveMerchant::Shipping::CanadaPostPWS.new(canada_post_options)
+          ActiveMerchant::Shipping::CanadaPostPWS.new(canada_post_options)
         end
       end
     end
