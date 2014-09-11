@@ -9,7 +9,7 @@ module Spree
               :login => Spree::ActiveShipping::Config[:canada_post_login],
               :french => (I18n.locale.to_sym == :fr)
           }
-          carrier = ActiveMerchant::Shipping::CanadaPost.new(canada_post_options)
+          ActiveMerchant::Shipping::CanadaPost.new(canada_post_options)
         end
       end
     end
